@@ -1,140 +1,133 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DCM YTMP3 Downloader</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="../../i.ibb.co/YBGYLM8G/SulaMd.jpg" type="image/x-icon">
-  <script src="https://unpkg.com/lucide@latest"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WhatsApp Bot Tutorial</title>
   <style>
-    * {
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      background: #0f0f0f;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      padding: 20px;
     }
-
-    h1 {
-      margin-bottom: 1.5rem;
-      font-size: 2.2rem;
-      color: #00ff88;
+    h1, h2 {
       text-align: center;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
+      color: #00ffe5;
     }
-
-    .container {
-      background: #1c1c1e;
-      padding: 2rem;
-      border-radius: 1rem;
-      width: 100%;
-      max-width: 500px;
-      box-shadow: 0 0 20px rgba(0,255,136,0.15);
-      transition: all 0.3s ease;
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 0 10px #00000077;
     }
-
-    input[type="text"] {
+    iframe {
       width: 100%;
-      padding: 0.85rem;
+      height: 200px;
       border: none;
-      border-radius: 0.5rem;
-      background: #2c2c2e;
-      color: #fff;
-      font-size: 1rem;
-      margin-bottom: 1.25rem;
-      outline: none;
-      transition: background 0.3s ease;
+      border-radius: 10px;
     }
-
-    input[type="text"]:focus {
-      background: #3a3a3c;
-    }
-
-    button {
-      width: 100%;
-      padding: 0.85rem;
-      border: none;
-      border-radius: 0.5rem;
-      background: #00ff88;
+    a.button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 20px;
+      background: #00ffe5;
       color: #000;
-      font-weight: 600;
-      font-size: 1rem;
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 0.6rem;
-      transition: background 0.3s ease, transform 0.2s ease;
-    }
-
-    button:hover {
-      background: #00e67a;
-      transform: scale(1.03);
-    }
-
-    .result {
-      margin-top: 1.5rem;
-      background: #2c2c2e;
-      padding: 1rem;
-      border-radius: 0.5rem;
-      display: none;
-      animation: fadeIn 0.3s ease;
-    }
-
-    .result a {
-      color: #00ff88;
-      word-break: break-word;
       text-decoration: none;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      margin-top: 0.5rem;
+      font-weight: bold;
+      border-radius: 6px;
     }
-
-    .filename {
-      margin-bottom: 0.5rem;
+    p.password {
+      margin-top: 10px;
+      color: #ccc;
+      cursor: pointer;
     }
-
-    .loading {
-      display: none;
-      margin-top: 1rem;
+    .footer {
       text-align: center;
-      color: #888;
-      font-size: 0.9rem;
-    }
-
-    .error {
-      margin-top: 1rem;
-      color: #ff4c4c;
-      font-size: 0.95rem;
-      display: none;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    svg {
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaaaaa;
     }
   </style>
 </head>
-<body><h2 style="color:red;text-align:center;margin-top:20vh;">Dev Tools Detected - Access Blocked</h2></body></html>
+<body>
+
+  <h1>🤖 WhatsApp Bot Tutorial</h1>
+  <p style="text-align:center;">by Ransara Devnath</p>
+
+  <div class="section">
+    <h2>📌 Part 1</h2>
+    <iframe src="https://www.youtube.com/embed/iAYuzqZR-9I"></iframe>
+    <a class="button" href="https://www.mediafire.com/file/mdokj8w5asg072a/BOT_FILE_PT1.zip/file" target="_blank">Download Files</a>
+    <p class="password" onclick="copyPassword(this)">🔐 Password: <strong>QUABOT</strong> <span style="color: #0af;">[Click to Copy]</span></p>
+  </div>
+
+  <div class="section">
+    <h2>📌 Part 2</h2>
+    <iframe src="https://www.youtube.com/embed/Jj82zE7t8Vo"></iframe>
+  </div>
+
+  <div class="section">
+    <h2>📌 Part 3</h2>
+    <iframe src="https://www.youtube.com/embed/emR4cN0t_eI"></iframe>
+    <a class="button" href="https://www.mediafire.com/file/4xx838xnyrtjuln/PAIR-main.zip/file" target="_blank">Download Files</a>
+    <p class="password" onclick="copyPassword(this)">🔐 Password: <strong>PAIR</strong> <span style="color: #0af;">[Click to Copy]</span></p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 | Tutorial by Ransara Devnath | Ranu MD
+  </div>
+
+  <script>
+    function copyPassword(el) {.footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaaaaa;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🤖 WhatsApp Bot Tutorial</h1>
+  <p style="text-align:center;">by Ransara Devnath</p>
+
+  <div class="section">
+    <h2>📌 Part 1</h2>
+    <iframe src="https://www.youtube.com/embed/iAYuzqZR-9I"></iframe>
+    <a class="button" href="https://www.mediafire.com/file/mdokj8w5asg072a/BOT_FILE_PT1.zip/file" target="_blank">Download Files</a>
+    <p class="password" onclick="copyPassword(this)">🔐 Password: <strong>QUABOT</strong> <span style="color: #0af;">[Click to Copy]</span></p>
+  </div>
+
+  <div class="section">
+    <h2>📌 Part 2</h2>
+    <iframe src="https://www.youtube.com/embed/Jj82zE7t8Vo"></iframe>
+  </div>
+
+  <div class="section">
+    <h2>📌 Part 3</h2>
+    <iframe src="https://www.youtube.com/embed/emR4cN0t_eI"></iframe>
+    <a class="button" href="https://www.mediafire.com/file/4xx838xnyrtjuln/PAIR-main.zip/file" target="_blank">Download Files</a>
+    <p class="password" onclick="copyPassword(this)">🔐 Password: <strong>PAIR</strong> <span style="color: #0af;">[Click to Copy]</span></p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 | Site Ransara Devnath | Ranu MD
+  </div>
+
+  <script>
+    function copyPassword(el) {
+    const pwd = el.innerText.match(/Password:\s*(\w+)/)[1];
+      navigator.clipboard.writeText(pwd).then(() => {
+        el.innerHTML = `🔐 Password: <strong>pwd</strong> <span style="color: lime;">✔ Copied!</span>`;
+        setTimeout(() => 
+          el.innerHTML = `🔐 Password: <strong>{pwd}</strong> <span style="color: #0af;">[Click to Copy]</span>`;
+        }, 1500);
+      });
+    }
+  </script>
+
+</body>
+</html>
